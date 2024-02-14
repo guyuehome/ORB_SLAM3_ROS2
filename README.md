@@ -23,8 +23,8 @@ $ sudo apt install ros-$ROS_DISTRO-vision-opencv && sudo apt install ros-$ROS_DI
 ## How to build
 1. Clone repository to your ROS workspace
 ```
-$ mkdir -p colcon_ws/src
-$ cd ~/colcon_ws/src
+$ mkdir -p dev_ws/src
+$ cd ~/dev_ws/src
 $ git clone https://github.com/guyuehome/ORB_SLAM3_ROS2.git orbslam3_ros2
 ```
 
@@ -34,7 +34,7 @@ $ git clone https://github.com/guyuehome/ORB_SLAM3_ROS2.git orbslam3_ros2
 
 Now, you are ready to build!
 ```
-$ cd ~/colcon_ws
+$ cd ~/dev_ws
 $ colcon build --symlink-install --packages-select orbslam3
 ```
 
@@ -50,7 +50,7 @@ $ sudo make install
 ## How to use
 1. Source the workspace  
 ```
-$ source ~/colcon_ws/install/local_setup.bash
+$ source ~/dev_ws/install/local_setup.bash
 ```
 
 2. Run orbslam mode, which you want.  
