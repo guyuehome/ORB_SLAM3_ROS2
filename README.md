@@ -1,5 +1,5 @@
 # ORB_SLAM3_ROS2
-This repository is ROS2 wrapping to use ORB_SLAM3
+This repository is ROS2 Humble wrapping to use ORB_SLAM3
 
 ---
 
@@ -13,7 +13,7 @@ This repository is ROS2 wrapping to use ORB_SLAM3
   - OpenCV 4.5.4
 
 - Build ORB_SLAM3
-  - Go to this [repo](https://github.com/zang09/ORB-SLAM3-STEREO-FIXED) and follow build instruction.
+  - Go to this [repo](https://github.com/guyuehome/ORB_SLAM3/tree/master) and follow build instruction.
 
 - Install related ROS2 package
 ```
@@ -25,7 +25,7 @@ $ sudo apt install ros-$ROS_DISTRO-vision-opencv && sudo apt install ros-$ROS_DI
 ```
 $ mkdir -p colcon_ws/src
 $ cd ~/colcon_ws/src
-$ git clone https://github.com/zang09/ORB_SLAM3_ROS2.git orbslam3_ros2
+$ git clone https://github.com/guyuehome/ORB_SLAM3_ROS2.git orbslam3_ros2
 ```
 
 2. Change this [line](https://github.com/zang09/ORB_SLAM3_ROS2/blob/ee82428ed627922058b93fea1d647725c813584e/CMakeLists.txt#L5) to your own `python site-packages` path
