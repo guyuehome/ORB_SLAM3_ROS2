@@ -60,6 +60,17 @@ You can find vocabulary file and config file in here. (e.g. `orbslam3_ros2/vocab
 ```
 $ ros2 run orbslam3 mono PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
 ```
+e.g.
+Terminal 1
+```
+$ sudo apt install ros-humble-v4l2-camera
+$ ros2 run v4l2_camera v4l2_camera_node
+```
+Terminal 2
+```
+$ ros2 run orbslam3 mono ~/dev_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt  ~/dev_ws/src/orbslam3_ros2/config/monocular/EuRoC.yaml
+```
+
   - `STEREO` mode  
 ```
 $ ros2 run orbslam3 stereo PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE BOOL_RECTIFY
