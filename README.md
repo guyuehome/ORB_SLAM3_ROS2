@@ -28,9 +28,9 @@ $ cd ~/colcon_ws/src
 $ git clone https://github.com/guyuehome/ORB_SLAM3_ROS2.git orbslam3_ros2
 ```
 
-2. Change this [line](https://github.com/zang09/ORB_SLAM3_ROS2/blob/ee82428ed627922058b93fea1d647725c813584e/CMakeLists.txt#L5) to your own `python site-packages` path
+2. Change this [line](https://github.com/guyuehome/ORB_SLAM3_ROS2/blob/master/CMakeLists.txt#L5) to your own `python site-packages` path
 
-3. Change this [line](https://github.com/zang09/ORB_SLAM3_ROS2/blob/ee82428ed627922058b93fea1d647725c813584e/CMakeModules/FindORB_SLAM3.cmake#L8) to your own `ORB_SLAM3` path
+3. Change this [line](https://github.com/guyuehome/ORB_SLAM3_ROS2/blob/master/CMakeModules/FindORB_SLAM3.cmake#L8) to your own `ORB_SLAM3` path
 
 Now, you are ready to build!
 ```
