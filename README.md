@@ -61,6 +61,7 @@ You can find vocabulary file and config file in here. (e.g. `orbslam3_ros2/vocab
 $ ros2 run orbslam3 mono PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
 ```
 e.g.
+
 Terminal 1
 ```
 $ sudo apt install ros-humble-v4l2-camera
